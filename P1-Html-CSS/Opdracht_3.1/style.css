@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Goldman", cursive;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  
+}
+li{
+  float: left;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0,8rem 1rem;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color:#00a8c7;
+  min-width: 20vw;
+  box-shadow: 0rem 0,5rem 1rem 0rem rgba(0,0,0,2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color:rgb(255, 255, 255);
+  padding: 0,8rem 1rem;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+h2 {
+  text-align: center;
+  font-size: 5rem;
+}
+p {
+  font-size: 2rem;
+  
+}
+
+body {
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  position: fixed;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s linear;
+}
+nav ul li :hover{
+  color: #080728;
+  box-shadow: none;
+}
+nav img {
+  width: 5vw;
+}
+
+.container {
+  background-image: url(Hacker.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3vw;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+style .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  float: right;
+}
+.SQL{
+  float: left;
+}
