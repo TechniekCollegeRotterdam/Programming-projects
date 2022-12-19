@@ -6,10 +6,19 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 body {
-  background-color: #D6CFB2;
+  background-color: #00AEB8;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 .name {
@@ -33,12 +42,20 @@ body {
   float: left;
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #D6CFB2;
+  background-color: #00AEB8;
   padding: 10px;
+  border-radius: 5%;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #00AEB8;
+  border: 1px solid rgba(37, 151, 161, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-item2 {
+  background-color: #00DFEB;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -50,9 +67,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.flex-container .img {
-  max-width: 5%;
-}
 
 .flex-item {
   display: flex;
@@ -62,7 +76,7 @@ body {
 .contact-container {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 45% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 100%, 45% 100%);
-  background-color: #F7EACD;
+  background-color: #4FDBDA;
   width: 43vw;
   display: flex;
   justify-content: flex-end;
