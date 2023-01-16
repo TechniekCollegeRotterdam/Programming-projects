@@ -1,3 +1,8 @@
+@media (max-width: 900px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +45,7 @@ h2 {
 }
 
 body {
-  background-color: #5BABF7;
+  background-color: #67a1d6;
 }
 
 .line {
@@ -64,13 +69,17 @@ p {
   border-radius: 5%;
 }
 
-.test {
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
+.github {
+  background-color: #5BABF7;
+  width: 400px;
+  border: 15px solid #1188F5;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 5%;
+  top: 60%;
 }
 
-.ervaring {
+.linkedin {
   background-color: #5BABF7;
   width: 400px;
   border: 15px solid #1188F5;
@@ -142,25 +151,24 @@ p {
   justify-content: space-between;
 }
 
+.flex-container2 {
+  padding: 0;
+  margin-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex-item {
   display: flex;
   align-items: flex-end;
 }
 
-.contact-container {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 45% 100%);
-          clip-path: polygon(0 0, 100% 0%, 100% 100%, 45% 100%);
-  background-color: #1188F5;
-  width: 43vw;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 20px;
-  margin-bottom: 25rem;
-}
 .contact-container .contact {
   font-size: 20px;
-  margin: 4rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
 }
 
 .project {
