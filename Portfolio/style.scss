@@ -1,12 +1,15 @@
+@import "_variables";
+
+
 @media (max-width: 900px) {
   .flex-container {
     flex-direction: column;
   }  
 }
 
-
-
-
+body{
+  background-color: $backroundColor;
+}
 * {
     margin: 0;
     padding: 0;
@@ -22,9 +25,10 @@ h1{
   margin-bottom: 3rem;
 
 }
-  h2{
+h2{
     font-size: 20px;
-  }
+}
+
 .student1{
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -43,9 +47,7 @@ h1{
   left: 50%;
   text-align: center;
 }
-body{
-    background-color:#67a1d6 ;
-}
+
 .line{
     display: flex;
     justify-content: center;
